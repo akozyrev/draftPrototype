@@ -30,7 +30,7 @@ class walkthroughPageViewController: UIPageViewController, UIPageViewControllerD
     return contentViewController(at: index)
   }
   
-  var pageHeadings = ["First page! Cool", "Lots of features", "Premium content"]
+  var pageHeadings = ["First page! Cool cool cool", "Lots of features", "Premium content"]
   var pageImages = ["onboarding-1", "onboarding-2", "onboarding-3"]
   var pageSubheadings = ["Yea", "saving democracy one tap at a time", "you bet"]
   
