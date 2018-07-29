@@ -10,16 +10,16 @@ import UIKit
 
 class WalkthroughContentViewController: UIViewController {
   
-  @IBOutlet weak var headerLabel: UILabel! {
-    didSet {
-      headerLabel.numberOfLines = 0
-    }
-  }
-  @IBOutlet weak var subheaderLabel: UILabel! {
-    didSet {
-      subheaderLabel.numberOfLines = 0
-    }
-  }
+//  @IBOutlet weak var headerLabel: UILabel! {
+//    didSet {
+//      headerLabel.numberOfLines = 0
+//    }
+//  }
+//  @IBOutlet weak var subheaderLabel: UILabel! {
+//    didSet {
+//      subheaderLabel.numberOfLines = 0
+//    }
+//  }
   @IBOutlet weak var contentImageView: UIImageView!
   
   var index = 0
@@ -31,8 +31,8 @@ class WalkthroughContentViewController: UIViewController {
     super.viewDidLoad()
     
     // Do any additional setup after loading the view.
-    headerLabel.text = heading
-    subheaderLabel.text = subheading
+//    headerLabel.text = heading
+//    subheaderLabel.text = subheading
     contentImageView.image = UIImage(named: imageFile)
   }
   
